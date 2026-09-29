@@ -1,0 +1,67 @@
+[
+  {
+    "change_id": "CHG-301",
+    "employee_id": "EMP007",
+    "customer_id": "CUST-401",
+    "timestamp": "2026-10-27T10:21:30",
+    "field_changed": "PRIMARY_CONTACT_PHONE_AND_2FA_DISPATCH",
+    "old_value": "+91 98200 99410 (Aarav Singhania Private Line)",
+    "new_value": "+91 98200 11099 (Burner SIM registered 24h ago)",
+    "channel": "INTERNAL_ADMIN_CONSOLE_DIRECT",
+    "supervisor_override": "BYPASS_TOKEN_EMERGENCY",
+    "is_suspicious": true,
+    "reason": "Client travel notification bypass override (falsified)"
+  },
+  {
+    "change_id": "CHG-302",
+    "employee_id": "EMP007",
+    "customer_id": "CUST-401",
+    "timestamp": "2026-10-27T10:23:05",
+    "field_changed": "OUTBOUND_TRANSACTION_LIMIT_PER_DAY",
+    "old_value": "INR 1,00,000",
+    "new_value": "INR 50,00,000",
+    "channel": "INTERNAL_ADMIN_CONSOLE_DIRECT",
+    "supervisor_override": "BYPASS_TOKEN_EMERGENCY",
+    "is_suspicious": true,
+    "reason": "Ad-hoc limit surge without compliance risk questionnaire"
+  },
+  {
+    "change_id": "CHG-305",
+    "employee_id": "EMP012",
+    "customer_id": "CUST-405",
+    "timestamp": "2026-10-26T23:55:00",
+    "field_changed": "KYC_EXPIRY_DATE",
+    "old_value": "2024-03-31",
+    "new_value": "2028-12-31",
+    "channel": "DIRECT_DB_MUTATION",
+    "supervisor_override": "NONE",
+    "is_suspicious": true,
+    "reason": "Direct SQL alteration bypassing front-office audit controls"
+  },
+  {
+    "change_id": "CHG-288",
+    "employee_id": "EMP005",
+    "customer_id": "CUST-407",
+    "timestamp": "2026-10-25T11:20:00",
+    "field_changed": "MAILING_ADDRESS",
+    "old_value": "Flat 4, Lavelle Road, Bengaluru",
+    "new_value": "Penthouse 12, Indiranagar, Bengaluru",
+    "channel": "BRANCH_CUSTOMER_REQUEST",
+    "supervisor_override": "EMP002",
+    "is_suspicious": false,
+    "reason": "Customer relocation with lease agreement proof"
+  },
+  {
+    "change_id": "CHG-281",
+    "employee_id": "EMP015",
+    "customer_id": "CUST-408",
+    "timestamp": "2026-10-22T14:40:00",
+    "field_changed": "NOMINEE_NAME",
+    "old_value": "None Listed",
+    "new_value": "Suresh Iyer (Spouse)",
+    "channel": "NET_BANKING_PORTAL",
+    "supervisor_override": "AUTOMATED_OTP_VERIFIED",
+    "is_suspicious": false,
+    "reason": "Nomination form submission"
+  }
+]

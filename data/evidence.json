@@ -1,0 +1,98 @@
+[
+  {
+    "evidence_id": "E001",
+    "evidence_type": "IAM_PRIVILEGE_LOG",
+    "source": "Active Directory & CyberArk PAM Vault",
+    "timestamp": "2026-10-27T10:05:00",
+    "description": "EMP007 (Vikram Malhotra) escalated to Tier 4 Admin Override via Emergency Token SEC-TICKET-99214-UNAUTH with zero secondary approval.",
+    "related_entity": "EMP007",
+    "related_event": "PRV-801",
+    "hash_signature": "sha256:4a8f9c2d1b0e3e5a6f7d8c9b0a1c2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a7b8c9d",
+    "confidence": "VERIFIED_HIGH",
+    "relationship_to_alert": "R05 \u2014 Privilege Escalation: Employee obtained high-level write authority immediately prior to ledger activities."
+  },
+  {
+    "evidence_id": "E002",
+    "evidence_type": "ACCESS_AUDIT_LOG",
+    "source": "Core Banking API Gateway (Audit-Stream-3)",
+    "timestamp": "2026-10-27T10:17:42",
+    "description": "EMP007 performed deep record inspection of Account ACC-9011 (Aarav Singhania Private Wealth) from workstation WS-MUM-OPS-074 outside his portfolio assignment.",
+    "related_entity": "ACC-9011",
+    "related_event": "ACC-EV-5001",
+    "hash_signature": "sha256:7b1e2c3d4f5a6b7c8d9e0f1a2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c",
+    "confidence": "VERIFIED_HIGH",
+    "relationship_to_alert": "R06 \u2014 Unusual Access: Access pattern deviates 100% from employee 90-day baseline; zero legitimate customer interaction documented."
+  },
+  {
+    "evidence_id": "E003",
+    "evidence_type": "CUSTOMER_PROFILE_MUTATION",
+    "source": "CRM Customer Master Journal",
+    "timestamp": "2026-10-27T10:21:30",
+    "description": "EMP007 altered CUST-401 primary telephone number to +91 98200 11099 and bypassed SMS/email transaction alerts under travel waiver pretence.",
+    "related_entity": "CUST-401",
+    "related_event": "CHG-301",
+    "hash_signature": "sha256:9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5a6b7c8d9e0f1a2b3c4d5e6f7a8b9c0d",
+    "confidence": "VERIFIED_HIGH",
+    "relationship_to_alert": "R07 \u2014 Profile Change Before Transaction: Direct suppression of transaction alerts 6 minutes prior to large fund movement."
+  },
+  {
+    "evidence_id": "E004",
+    "evidence_type": "TRANSACTION_EVENT",
+    "source": "RTGS Real-Time Settlement Engine",
+    "timestamp": "2026-10-27T10:27:14",
+    "description": "Outbound RTGS transfer of \u20b94,60,000 from ACC-9011 to ACC-9042 (Maya Overseas). Initiated directly with EMP007 operator credential bypass.",
+    "related_entity": "TXN-CIRC-001",
+    "related_event": "TXN-CIRC-001",
+    "hash_signature": "sha256:1a2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5a6b7c8d9e0f1a2b",
+    "confidence": "VERIFIED_HIGH",
+    "relationship_to_alert": "R01 \u2014 Large Transaction & R04 Rapid Transfer Chain: Abrupt high-value debit draining 25% of liquid balance."
+  },
+  {
+    "evidence_id": "E005",
+    "evidence_type": "TRANSACTION_EVENT",
+    "source": "IMPS Switch Clearing Engine",
+    "timestamp": "2026-10-27T10:31:48",
+    "description": "Subsequent transfer of \u20b94,20,000 from ACC-9042 to ACC-9088 (Kavita Patel). Occurred 4 minutes after credit arrival with minimal retention fee.",
+    "related_entity": "TXN-CIRC-002",
+    "related_event": "TXN-CIRC-002",
+    "hash_signature": "sha256:2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5a6b7c8d9e0f1a2b3c",
+    "confidence": "VERIFIED_HIGH",
+    "relationship_to_alert": "R04 \u2014 Rapid Transfer Chain: Immediate pass-through hop characteristic of conduit/layering technique."
+  },
+  {
+    "evidence_id": "E006",
+    "evidence_type": "TRANSACTION_EVENT",
+    "source": "RTGS Real-Time Settlement Engine",
+    "timestamp": "2026-10-27T10:38:22",
+    "description": "Closing transfer of \u20b94,00,000 from ACC-9088 returning directly back to ACC-9011. Closed transaction cycle completed in 11 minutes total.",
+    "related_entity": "TXN-CIRC-003",
+    "related_event": "TXN-CIRC-003",
+    "hash_signature": "sha256:3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5a6b7c8d9e0f1a2b3c4d",
+    "confidence": "VERIFIED_HIGH",
+    "relationship_to_alert": "R03 \u2014 Circular Transfer: A \u2192 B \u2192 C \u2192 A closed cycle confirming synthetic volume creation or money laundering loop."
+  },
+  {
+    "evidence_id": "E007",
+    "evidence_type": "DATABASE_QUERY_TELEMETRY",
+    "source": "Oracle Database Firewall Audit",
+    "timestamp": "2026-10-26T23:42:10",
+    "description": "Direct SELECT query on dormant trust ACC-9105 balance by DBA credential EMP012 outside authorized change window.",
+    "related_entity": "ACC-9105",
+    "related_event": "ACC-EV-5010",
+    "hash_signature": "sha256:8899aabbccddeeff00112233445566778899aabbccddeeff0011223344556677",
+    "confidence": "VERIFIED_HIGH",
+    "relationship_to_alert": "R08 \u2014 Dormant Account Activation & R10 Unusual Timing"
+  },
+  {
+    "evidence_id": "E008",
+    "evidence_type": "TRANSACTION_EVENT",
+    "source": "SWIFT Alliance Gateway",
+    "timestamp": "2026-10-27T01:15:00",
+    "description": "Offshore SWIFT message MT103 transferring \u20b935,00,000 from dormant account ACC-9105 to Singapore entity ACC-9101.",
+    "related_entity": "TXN-DORM-001",
+    "related_event": "TXN-DORM-001",
+    "hash_signature": "sha256:aabbccddeeff00112233445566778899aabbccddeeff00112233445566778899",
+    "confidence": "VERIFIED_HIGH",
+    "relationship_to_alert": "R08 \u2014 Dormant Account Liquidation"
+  }
+]

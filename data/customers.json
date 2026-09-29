@@ -1,0 +1,460 @@
+[
+  {
+    "customer_id": "CUST-401",
+    "name": "Aarav Singhania",
+    "risk_level": "HIGH",
+    "account_ids": [
+      "ACC-9011",
+      "ACC-9012"
+    ],
+    "status": "ACTIVE",
+    "kyc_status": "VERIFIED",
+    "segment": "Ultra High Net Worth",
+    "residence": "Worli, Mumbai",
+    "phone": "+91 98200 11099"
+  },
+  {
+    "customer_id": "CUST-402",
+    "name": "Maya Overseas & Export Ltd",
+    "risk_level": "HIGH",
+    "account_ids": [
+      "ACC-9042"
+    ],
+    "status": "ACTIVE",
+    "kyc_status": "FLAGGED",
+    "segment": "Commercial Trade",
+    "residence": "Andheri East, Mumbai",
+    "phone": "+91 98112 40019"
+  },
+  {
+    "customer_id": "CUST-403",
+    "name": "Kavita Patel",
+    "risk_level": "HIGH",
+    "account_ids": [
+      "ACC-9088"
+    ],
+    "status": "ACTIVE",
+    "kyc_status": "VERIFIED",
+    "segment": "Retail Business",
+    "residence": "Bandra West, Mumbai",
+    "phone": "+91 98334 77201"
+  },
+  {
+    "customer_id": "CUST-404",
+    "name": "Apex Holdings Pte Ltd",
+    "risk_level": "MEDIUM",
+    "account_ids": [
+      "ACC-9101",
+      "ACC-9102"
+    ],
+    "status": "ACTIVE",
+    "kyc_status": "VERIFIED",
+    "segment": "Institutional Holding",
+    "residence": "Singapore",
+    "phone": "+65 6712 8890"
+  },
+  {
+    "customer_id": "CUST-405",
+    "name": "Dormant Trust B-11",
+    "risk_level": "HIGH",
+    "account_ids": [
+      "ACC-9105"
+    ],
+    "status": "RESTRICTED",
+    "kyc_status": "EXPIRED",
+    "segment": "Legacy Trust",
+    "residence": "Geneva, Switzerland",
+    "phone": "+41 22 819 0044"
+  },
+  {
+    "customer_id": "CUST-406",
+    "name": "Crestline Logistics",
+    "risk_level": "MEDIUM",
+    "account_ids": [
+      "ACC-9109"
+    ],
+    "status": "ACTIVE",
+    "kyc_status": "VERIFIED",
+    "segment": "Commercial Fleet",
+    "residence": "Navi Mumbai",
+    "phone": "+91 98221 44500"
+  },
+  {
+    "customer_id": "CUST-407",
+    "name": "Sunita Rao",
+    "risk_level": "LOW",
+    "account_ids": [
+      "ACC-9112"
+    ],
+    "status": "ACTIVE",
+    "kyc_status": "VERIFIED",
+    "segment": "Retail Premier",
+    "residence": "Bengaluru",
+    "phone": "+91 98440 22341"
+  },
+  {
+    "customer_id": "CUST-408",
+    "name": "Rajeshwari Iyer",
+    "risk_level": "LOW",
+    "account_ids": [
+      "ACC-9115"
+    ],
+    "status": "ACTIVE",
+    "kyc_status": "VERIFIED",
+    "segment": "Salaried Professional",
+    "residence": "Chennai",
+    "phone": "+91 94441 55620"
+  },
+  {
+    "customer_id": "CUST-409",
+    "name": "Blue Horizon Commodities",
+    "risk_level": "HIGH",
+    "account_ids": [
+      "ACC-9120",
+      "ACC-9121"
+    ],
+    "status": "ACTIVE",
+    "kyc_status": "ENHANCED_DUE_DILIGENCE",
+    "segment": "Commodities Broking",
+    "residence": "Dubai",
+    "phone": "+971 4 332 9981"
+  },
+  {
+    "customer_id": "CUST-410",
+    "name": "Tariq Mansoor",
+    "risk_level": "MEDIUM",
+    "account_ids": [
+      "ACC-9125"
+    ],
+    "status": "ACTIVE",
+    "kyc_status": "VERIFIED",
+    "segment": "Commercial Real Estate",
+    "residence": "Abu Dhabi",
+    "phone": "+971 2 445 1120"
+  },
+  {
+    "customer_id": "CUST-411",
+    "name": "Aditya Kulkarni",
+    "risk_level": "HIGH",
+    "account_ids": [
+      "ACC-9130"
+    ],
+    "status": "ACTIVE",
+    "kyc_status": "VERIFIED",
+    "segment": "Retail Standard",
+    "residence": "Sector 1, Metropolitan Region",
+    "phone": "+91 98000 10000"
+  },
+  {
+    "customer_id": "CUST-412",
+    "name": "Neha Deshmukh",
+    "risk_level": "LOW",
+    "account_ids": [
+      "ACC-9131"
+    ],
+    "status": "ACTIVE",
+    "kyc_status": "VERIFIED",
+    "segment": "Retail Standard",
+    "residence": "Sector 2, Metropolitan Region",
+    "phone": "+91 98010 10137"
+  },
+  {
+    "customer_id": "CUST-413",
+    "name": "Rahul Nair",
+    "risk_level": "LOW",
+    "account_ids": [
+      "ACC-9132"
+    ],
+    "status": "ACTIVE",
+    "kyc_status": "VERIFIED",
+    "segment": "Retail Standard",
+    "residence": "Sector 3, Metropolitan Region",
+    "phone": "+91 98020 10274"
+  },
+  {
+    "customer_id": "CUST-414",
+    "name": "Meera Reddy",
+    "risk_level": "LOW",
+    "account_ids": [
+      "ACC-9133"
+    ],
+    "status": "ACTIVE",
+    "kyc_status": "VERIFIED",
+    "segment": "Retail Standard",
+    "residence": "Sector 4, Metropolitan Region",
+    "phone": "+91 98030 10411"
+  },
+  {
+    "customer_id": "CUST-415",
+    "name": "Sanjay Chatterjee",
+    "risk_level": "MEDIUM",
+    "account_ids": [
+      "ACC-9134"
+    ],
+    "status": "ACTIVE",
+    "kyc_status": "VERIFIED",
+    "segment": "Retail Standard",
+    "residence": "Sector 5, Metropolitan Region",
+    "phone": "+91 98040 10548"
+  },
+  {
+    "customer_id": "CUST-416",
+    "name": "Anil Bose",
+    "risk_level": "LOW",
+    "account_ids": [
+      "ACC-9135"
+    ],
+    "status": "ACTIVE",
+    "kyc_status": "VERIFIED",
+    "segment": "Retail Standard",
+    "residence": "Sector 6, Metropolitan Region",
+    "phone": "+91 98050 10685"
+  },
+  {
+    "customer_id": "CUST-417",
+    "name": "Deepa Menon",
+    "risk_level": "LOW",
+    "account_ids": [
+      "ACC-9136"
+    ],
+    "status": "ACTIVE",
+    "kyc_status": "VERIFIED",
+    "segment": "Retail Standard",
+    "residence": "Sector 7, Metropolitan Region",
+    "phone": "+91 98060 10822"
+  },
+  {
+    "customer_id": "CUST-418",
+    "name": "Sameer Kapoor",
+    "risk_level": "LOW",
+    "account_ids": [
+      "ACC-9137"
+    ],
+    "status": "ACTIVE",
+    "kyc_status": "VERIFIED",
+    "segment": "Retail Standard",
+    "residence": "Sector 8, Metropolitan Region",
+    "phone": "+91 98070 10959"
+  },
+  {
+    "customer_id": "CUST-419",
+    "name": "Ritu Bhatia",
+    "risk_level": "HIGH",
+    "account_ids": [
+      "ACC-9138"
+    ],
+    "status": "ACTIVE",
+    "kyc_status": "VERIFIED",
+    "segment": "Retail Standard",
+    "residence": "Sector 9, Metropolitan Region",
+    "phone": "+91 98080 11096"
+  },
+  {
+    "customer_id": "CUST-420",
+    "name": "Gaurav Chauhan",
+    "risk_level": "LOW",
+    "account_ids": [
+      "ACC-9139"
+    ],
+    "status": "ACTIVE",
+    "kyc_status": "VERIFIED",
+    "segment": "Retail Standard",
+    "residence": "Sector 10, Metropolitan Region",
+    "phone": "+91 98090 11233"
+  },
+  {
+    "customer_id": "CUST-421",
+    "name": "Swati Mukherjee",
+    "risk_level": "LOW",
+    "account_ids": [
+      "ACC-9140"
+    ],
+    "status": "ACTIVE",
+    "kyc_status": "VERIFIED",
+    "segment": "Retail Standard",
+    "residence": "Sector 11, Metropolitan Region",
+    "phone": "+91 98100 11370"
+  },
+  {
+    "customer_id": "CUST-422",
+    "name": "Karan Saxena",
+    "risk_level": "LOW",
+    "account_ids": [
+      "ACC-9141"
+    ],
+    "status": "ACTIVE",
+    "kyc_status": "VERIFIED",
+    "segment": "Retail Standard",
+    "residence": "Sector 12, Metropolitan Region",
+    "phone": "+91 98110 11507"
+  },
+  {
+    "customer_id": "CUST-423",
+    "name": "Pooja Chawla",
+    "risk_level": "MEDIUM",
+    "account_ids": [
+      "ACC-9142"
+    ],
+    "status": "ACTIVE",
+    "kyc_status": "VERIFIED",
+    "segment": "Retail Standard",
+    "residence": "Sector 13, Metropolitan Region",
+    "phone": "+91 98120 11644"
+  },
+  {
+    "customer_id": "CUST-424",
+    "name": "Varun Trivedi",
+    "risk_level": "LOW",
+    "account_ids": [
+      "ACC-9143"
+    ],
+    "status": "ACTIVE",
+    "kyc_status": "VERIFIED",
+    "segment": "Retail Standard",
+    "residence": "Sector 14, Metropolitan Region",
+    "phone": "+91 98130 11781"
+  },
+  {
+    "customer_id": "CUST-425",
+    "name": "Shruti Pandey",
+    "risk_level": "LOW",
+    "account_ids": [
+      "ACC-9144"
+    ],
+    "status": "ACTIVE",
+    "kyc_status": "VERIFIED",
+    "segment": "Retail Standard",
+    "residence": "Sector 15, Metropolitan Region",
+    "phone": "+91 98140 11918"
+  },
+  {
+    "customer_id": "CUST-426",
+    "name": "Tarun Dutta",
+    "risk_level": "LOW",
+    "account_ids": [
+      "ACC-9145"
+    ],
+    "status": "ACTIVE",
+    "kyc_status": "VERIFIED",
+    "segment": "Retail Standard",
+    "residence": "Sector 16, Metropolitan Region",
+    "phone": "+91 98150 12055"
+  },
+  {
+    "customer_id": "CUST-427",
+    "name": "Divya Nigam",
+    "risk_level": "HIGH",
+    "account_ids": [
+      "ACC-9146"
+    ],
+    "status": "ACTIVE",
+    "kyc_status": "VERIFIED",
+    "segment": "Retail Standard",
+    "residence": "Sector 17, Metropolitan Region",
+    "phone": "+91 98160 12192"
+  },
+  {
+    "customer_id": "CUST-428",
+    "name": "Manish Mehta",
+    "risk_level": "LOW",
+    "account_ids": [
+      "ACC-9147"
+    ],
+    "status": "ACTIVE",
+    "kyc_status": "VERIFIED",
+    "segment": "Retail Standard",
+    "residence": "Sector 18, Metropolitan Region",
+    "phone": "+91 98170 12329"
+  },
+  {
+    "customer_id": "CUST-429",
+    "name": "Bhavna Bansal",
+    "risk_level": "LOW",
+    "account_ids": [
+      "ACC-9148"
+    ],
+    "status": "ACTIVE",
+    "kyc_status": "VERIFIED",
+    "segment": "Retail Standard",
+    "residence": "Sector 19, Metropolitan Region",
+    "phone": "+91 98180 12466"
+  },
+  {
+    "customer_id": "CUST-430",
+    "name": "Alok Goel",
+    "risk_level": "LOW",
+    "account_ids": [
+      "ACC-9149"
+    ],
+    "status": "ACTIVE",
+    "kyc_status": "VERIFIED",
+    "segment": "Retail Standard",
+    "residence": "Sector 20, Metropolitan Region",
+    "phone": "+91 98190 12603"
+  },
+  {
+    "customer_id": "CUST-431",
+    "name": "Pallavi Srivastava",
+    "risk_level": "MEDIUM",
+    "account_ids": [
+      "ACC-9150"
+    ],
+    "status": "ACTIVE",
+    "kyc_status": "VERIFIED",
+    "segment": "Retail Standard",
+    "residence": "Sector 21, Metropolitan Region",
+    "phone": "+91 98200 12740"
+  },
+  {
+    "customer_id": "CUST-432",
+    "name": "Naveen Sen",
+    "risk_level": "LOW",
+    "account_ids": [
+      "ACC-9151"
+    ],
+    "status": "ACTIVE",
+    "kyc_status": "VERIFIED",
+    "segment": "Retail Standard",
+    "residence": "Sector 22, Metropolitan Region",
+    "phone": "+91 98210 12877"
+  },
+  {
+    "customer_id": "CUST-433",
+    "name": "Ishaan Pillai",
+    "risk_level": "LOW",
+    "account_ids": [
+      "ACC-9152"
+    ],
+    "status": "ACTIVE",
+    "kyc_status": "VERIFIED",
+    "segment": "Retail Standard",
+    "residence": "Sector 23, Metropolitan Region",
+    "phone": "+91 98220 13014"
+  },
+  {
+    "customer_id": "CUST-434",
+    "name": "Rhea Goswami",
+    "risk_level": "LOW",
+    "account_ids": [
+      "ACC-9153"
+    ],
+    "status": "ACTIVE",
+    "kyc_status": "VERIFIED",
+    "segment": "Retail Standard",
+    "residence": "Sector 24, Metropolitan Region",
+    "phone": "+91 98230 13151"
+  },
+  {
+    "customer_id": "CUST-435",
+    "name": "Harish Vaidya",
+    "risk_level": "HIGH",
+    "account_ids": [
+      "ACC-9154"
+    ],
+    "status": "ACTIVE",
+    "kyc_status": "VERIFIED",
+    "segment": "Retail Standard",
+    "residence": "Sector 25, Metropolitan Region",
+    "phone": "+91 98240 13288"
+  }
+]

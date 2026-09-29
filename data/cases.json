@@ -1,0 +1,122 @@
+[
+  {
+    "case_id": "CAS-8821",
+    "title": "Operation Glass Ring: Coordinated Insider Intrusion & Rapid Circular Laundering",
+    "priority": "CRITICAL",
+    "status": "INVESTIGATING",
+    "assigned_investigator": "EMP001",
+    "created_at": "2026-10-27T10:45:00",
+    "related_alerts": [
+      "ALT-10482"
+    ],
+    "target_employee": "EMP007",
+    "target_accounts": [
+      "ACC-9011",
+      "ACC-9042",
+      "ACC-9088"
+    ],
+    "evidence": [
+      "E001",
+      "E002",
+      "E003",
+      "E004",
+      "E005",
+      "E006"
+    ],
+    "notes": [
+      {
+        "note_id": "NOT-01",
+        "author": "Sarah Jenkins (Lead FinCrime Investigator)",
+        "timestamp": "2026-10-27T10:48:12",
+        "content": "Immediate preservation order initiated for workstation WS-MUM-OPS-074. PAM emergency token SEC-TICKET-99214 traced to unauthorized privileged injection. Circular money loop demonstrates synthetic round-tripping."
+      },
+      {
+        "note_id": "NOT-02",
+        "author": "Sarah Jenkins (Lead FinCrime Investigator)",
+        "timestamp": "2026-10-27T11:05:00",
+        "content": "Escalated to Special Investigations & FIU dispatch."
+      }
+    ],
+    "resolution": null
+  },
+  {
+    "case_id": "CAS-8819",
+    "title": "Swiss Trust Dormant Liquidation Review",
+    "priority": "HIGH",
+    "status": "INVESTIGATING",
+    "assigned_investigator": "EMP010",
+    "created_at": "2026-10-27T02:00:00",
+    "related_alerts": [
+      "ALT-10455"
+    ],
+    "target_employee": "EMP012",
+    "target_accounts": [
+      "ACC-9105",
+      "ACC-9101"
+    ],
+    "evidence": [
+      "E007",
+      "E008"
+    ],
+    "notes": [
+      {
+        "note_id": "NOT-02",
+        "author": "Tara Sen (Senior AML Analyst)",
+        "timestamp": "2026-10-27T02:15:30",
+        "content": "Requested correspondent bank in Singapore to freeze beneficiary account ACC-9101 pending beneficiary ultimate beneficial owner verification."
+      }
+    ],
+    "resolution": null
+  },
+  {
+    "case_id": "CAS-8804",
+    "title": "Structured Merchant Payout Ring",
+    "priority": "MEDIUM",
+    "status": "INVESTIGATING",
+    "assigned_investigator": "EMP001",
+    "created_at": "2026-10-27T08:00:00",
+    "related_alerts": [
+      "ALT-10461"
+    ],
+    "target_employee": null,
+    "target_accounts": [
+      "ACC-9120",
+      "ACC-9130"
+    ],
+    "evidence": [],
+    "notes": [
+      {
+        "note_id": "NOT-03",
+        "author": "Sarah Jenkins",
+        "timestamp": "2026-10-27T08:20:00",
+        "content": "Escrow account exhibiting classic smurfing distribution. Awaiting KYC document refresh."
+      }
+    ],
+    "resolution": null
+  },
+  {
+    "case_id": "CAS-8790",
+    "title": "Logistics Fuel Settlement Batch Review",
+    "priority": "LOW",
+    "status": "RESOLVED",
+    "assigned_investigator": "EMP010",
+    "created_at": "2026-10-26T17:00:00",
+    "related_alerts": [
+      "ALT-10449"
+    ],
+    "target_employee": null,
+    "target_accounts": [
+      "ACC-9109"
+    ],
+    "evidence": [],
+    "notes": [
+      {
+        "note_id": "NOT-04",
+        "author": "Tara Sen",
+        "timestamp": "2026-10-26T17:30:00",
+        "content": "Invoices cross-checked against fleet GPS logs. Normal seasonal surge. False positive confirmed."
+      }
+    ],
+    "resolution": "RESOLVED_FALSE_POSITIVE"
+  }
+]

@@ -1,0 +1,200 @@
+[
+  {
+    "employee_id": "EMP007",
+    "name": "Vikram Malhotra",
+    "department": "Core Banking Operations",
+    "role": "Senior Operations Analyst",
+    "privilege_level": 4,
+    "status": "ACTIVE",
+    "last_login": "2026-10-27T10:02:14",
+    "email": "v.malhotra@zenith-bank.internal",
+    "location": "Mumbai Operations Hub (Level 3)"
+  },
+  {
+    "employee_id": "EMP001",
+    "name": "Sarah Jenkins",
+    "department": "Financial Crime & AML",
+    "role": "Lead FinCrime Investigator",
+    "privilege_level": 5,
+    "status": "ACTIVE",
+    "last_login": "2026-10-27T08:45:00",
+    "email": "s.jenkins@zenith-bank.internal",
+    "location": "London Risk Centre"
+  },
+  {
+    "employee_id": "EMP002",
+    "name": "Arjun Sharma",
+    "department": "Core Banking Operations",
+    "role": "Operations Manager",
+    "privilege_level": 4,
+    "status": "ACTIVE",
+    "last_login": "2026-10-27T09:12:00",
+    "email": "a.sharma@zenith-bank.internal",
+    "location": "Mumbai Operations Hub (Level 3)"
+  },
+  {
+    "employee_id": "EMP003",
+    "name": "Elena Rostova",
+    "department": "Security Operations",
+    "role": "IAM Security Administrator",
+    "privilege_level": 5,
+    "status": "ACTIVE",
+    "last_login": "2026-10-27T08:15:30",
+    "email": "e.rostova@zenith-bank.internal",
+    "location": "Frankfurt Security Operations"
+  },
+  {
+    "employee_id": "EMP004",
+    "name": "Devendra Rao",
+    "department": "Private Wealth Management",
+    "role": "Senior Portfolio Director",
+    "privilege_level": 3,
+    "status": "ACTIVE",
+    "last_login": "2026-10-27T09:30:10",
+    "email": "d.rao@zenith-bank.internal",
+    "location": "Singapore Wealth Hub"
+  },
+  {
+    "employee_id": "EMP005",
+    "name": "Priya Nambiar",
+    "department": "Retail Banking Services",
+    "role": "Branch Relationship Officer",
+    "privilege_level": 2,
+    "status": "ACTIVE",
+    "last_login": "2026-10-27T09:05:40",
+    "email": "p.nambiar@zenith-bank.internal",
+    "location": "Bangalore Commercial Branch"
+  },
+  {
+    "employee_id": "EMP006",
+    "name": "Michael Chang",
+    "department": "Treasury & Clearing",
+    "role": "Settlement Officer",
+    "privilege_level": 3,
+    "status": "ACTIVE",
+    "last_login": "2026-10-27T07:55:00",
+    "email": "m.chang@zenith-bank.internal",
+    "location": "Hong Kong Clearing Centre"
+  },
+  {
+    "employee_id": "EMP008",
+    "name": "Ananya Joshi",
+    "department": "Retail Banking Services",
+    "role": "Customer Support Representative",
+    "privilege_level": 1,
+    "status": "ACTIVE",
+    "last_login": "2026-10-27T08:50:22",
+    "email": "a.joshi@zenith-bank.internal",
+    "location": "Pune Support Centre"
+  },
+  {
+    "employee_id": "EMP009",
+    "name": "Rohan Mehra",
+    "department": "Core Banking Operations",
+    "role": "Junior Data Entry Specialist",
+    "privilege_level": 1,
+    "status": "ACTIVE",
+    "last_login": "2026-10-27T09:10:15",
+    "email": "r.mehra@zenith-bank.internal",
+    "location": "Mumbai Operations Hub (Level 3)"
+  },
+  {
+    "employee_id": "EMP010",
+    "name": "Tara Sen",
+    "department": "Financial Crime & AML",
+    "role": "Senior AML Analyst",
+    "privilege_level": 4,
+    "status": "ACTIVE",
+    "last_login": "2026-10-27T08:40:00",
+    "email": "t.sen@zenith-bank.internal",
+    "location": "London Risk Centre"
+  },
+  {
+    "employee_id": "EMP011",
+    "name": "Zainab Al-Mansoor",
+    "department": "Trade Finance Operations",
+    "role": "Letter of Credit Auditor",
+    "privilege_level": 3,
+    "status": "ACTIVE",
+    "last_login": "2026-10-26T17:22:00",
+    "email": "z.mansoor@zenith-bank.internal",
+    "location": "Dubai Regional Centre"
+  },
+  {
+    "employee_id": "EMP012",
+    "name": "Karthik Varma",
+    "department": "IT Infrastructure",
+    "role": "Database Operations Engineer",
+    "privilege_level": 4,
+    "status": "ACTIVE",
+    "last_login": "2026-10-27T06:30:00",
+    "email": "k.varma@zenith-bank.internal",
+    "location": "Hyderabad Tech Centre"
+  },
+  {
+    "employee_id": "EMP013",
+    "name": "Samantha Ward",
+    "department": "Compliance & Audit",
+    "role": "Internal Audit Specialist",
+    "privilege_level": 3,
+    "status": "ACTIVE",
+    "last_login": "2026-10-27T09:15:00",
+    "email": "s.ward@zenith-bank.internal",
+    "location": "London Risk Centre"
+  },
+  {
+    "employee_id": "EMP014",
+    "name": "Kabir Das",
+    "department": "Core Banking Operations",
+    "role": "Wire Transfer Operator",
+    "privilege_level": 2,
+    "status": "ACTIVE",
+    "last_login": "2026-10-27T08:00:10",
+    "email": "k.das@zenith-bank.internal",
+    "location": "Mumbai Operations Hub (Level 3)"
+  },
+  {
+    "employee_id": "EMP015",
+    "name": "Amina Tour\u00e9",
+    "department": "Global Client Onboarding",
+    "role": "KYC Specialist",
+    "privilege_level": 2,
+    "status": "ACTIVE",
+    "last_login": "2026-10-27T09:45:00",
+    "email": "a.toure@zenith-bank.internal",
+    "location": "Paris Office"
+  },
+  {
+    "employee_id": "EMP016",
+    "name": "Nikhil Agarwal",
+    "department": "Retail Banking Services",
+    "role": "Branch Assistant",
+    "privilege_level": 1,
+    "status": "SUSPENDED",
+    "last_login": "2026-10-24T14:10:00",
+    "email": "n.agarwal@zenith-bank.internal",
+    "location": "Delhi Branch"
+  },
+  {
+    "employee_id": "EMP017",
+    "name": "David Meyer",
+    "department": "Cyber Threat Intelligence",
+    "role": "Threat Hunting Lead",
+    "privilege_level": 4,
+    "status": "ACTIVE",
+    "last_login": "2026-10-27T07:00:00",
+    "email": "d.meyer@zenith-bank.internal",
+    "location": "Frankfurt Security Operations"
+  },
+  {
+    "employee_id": "EMP018",
+    "name": "Siddharth Menon",
+    "department": "Private Wealth Management",
+    "role": "Private Banker",
+    "privilege_level": 3,
+    "status": "ACTIVE",
+    "last_login": "2026-10-27T09:20:00",
+    "email": "s.menon@zenith-bank.internal",
+    "location": "Mumbai Operations Hub (Level 3)"
+  }
+]

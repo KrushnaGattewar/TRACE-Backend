@@ -1,0 +1,67 @@
+[
+  {
+    "change_id": "PRV-801",
+    "employee_id": "EMP007",
+    "previous_level": 2,
+    "new_level": 4,
+    "privilege_name": "TIER_4_DIRECT_OVERRIDE_AND_LEDGER_MUTATION",
+    "granted_at": "2026-10-27T10:05:00",
+    "granted_by": "SYSTEM_EMERGENCY_OVERRIDE_BYPASS",
+    "approval_ticket": "SEC-TICKET-99214-UNAUTH",
+    "reason": "Emergency Batch Settlement (Unverified Claim)",
+    "ip_address": "10.14.88.107 (Mumbai Ops Level 3)",
+    "is_suspicious": true
+  },
+  {
+    "change_id": "PRV-782",
+    "employee_id": "EMP002",
+    "previous_level": 3,
+    "new_level": 4,
+    "privilege_name": "OPERATIONS_SUPERVISOR_SIGN_OFF",
+    "granted_at": "2026-10-20T14:30:00",
+    "granted_by": "EMP003",
+    "approval_ticket": "IAM-2026-8941",
+    "reason": "Scheduled Annual Role Elevation",
+    "ip_address": "10.14.88.12",
+    "is_suspicious": false
+  },
+  {
+    "change_id": "PRV-771",
+    "employee_id": "EMP014",
+    "previous_level": 1,
+    "new_level": 2,
+    "privilege_name": "DOMESTIC_RTGS_OPERATOR",
+    "granted_at": "2026-10-15T11:00:00",
+    "granted_by": "EMP002",
+    "approval_ticket": "IAM-2026-8712",
+    "reason": "Operational Roster Rotation",
+    "ip_address": "10.14.88.55",
+    "is_suspicious": false
+  },
+  {
+    "change_id": "PRV-765",
+    "employee_id": "EMP010",
+    "previous_level": 3,
+    "new_level": 4,
+    "privilege_name": "AML_CASE_DISMISSAL_AND_SAR_FILING",
+    "granted_at": "2026-10-10T09:20:00",
+    "granted_by": "EMP001",
+    "approval_ticket": "IAM-2026-8430",
+    "reason": "Promotion to Senior AML Specialist",
+    "ip_address": "10.20.12.44",
+    "is_suspicious": false
+  },
+  {
+    "change_id": "PRV-752",
+    "employee_id": "EMP005",
+    "previous_level": 1,
+    "new_level": 2,
+    "privilege_name": "RETAIL_KYC_DOC_VERIFICATION",
+    "granted_at": "2026-10-02T16:15:00",
+    "granted_by": "EMP002",
+    "approval_ticket": "IAM-2026-8109",
+    "reason": "Branch Support Expansion",
+    "ip_address": "10.16.4.19",
+    "is_suspicious": false
+  }
+]
